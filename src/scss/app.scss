@@ -24,3 +24,86 @@
 
 /* Demo Page styles */
 @import 'demo';
+
+
+.title1 {
+    padding-top: 239px;
+    padding-left: 112px;
+}
+
+.stats-item1 {
+    margin-bottom: 340px;
+  }
+  .stats-item1-e1 {
+    top: 396px;
+    left: 261px;
+    width: 361px;
+    height: 155px;
+  }
+  .stats-item1-e2 {
+   
+    font-size: 72px;
+    margin-left: 30px;
+  }
+  .stats-item1-e3,
+  .happy-clients-text,
+  .awards-won-text {
+    display: flex;
+    padding-left: 46px;
+    gap: 12px;
+    font-size: 24px;
+    /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif; */
+  }
+  hr {
+    color: #ff9800;
+    border: 2px solid orange;
+  }
+  .stats-item2 {
+    
+    top: 0px;
+    left: 212px;
+    width: 361px;
+    height: 155px;
+    
+  }
+  .stats-item3 {
+    top: 122px;
+    left: 512px;
+    width: 361px;
+    height: 155px;
+  }
+  .stats-item4 {
+    top: 364px;
+    left: 458px;
+    width: 361px;
+    height: 155px;
+  }
+  .thirty-years-about {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 172px;
+    left: 944px;
+    right: 137px;
+  }
+  .thirty-years-about-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    color: #2947a9;
+  }
+  .thirty-years-about-description {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 40px;
+    color: #525b7a;
+  }
+  .thirty-year-contact-us {
+    width: 176px;
+    border: none;
+    margin-top: 67px;
+    padding: 16px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #2947a9;
+  }
